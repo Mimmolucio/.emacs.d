@@ -1,2 +1,0 @@
-(require 'lsp-mode)
-(add-hook 'c-mode-hook #'lsp)
