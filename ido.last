@@ -1,0 +1,86 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "mimmo/")
+ ("/home/mimmo/Dokumente/projects/c/kr/" . "Intros/")
+ ("/home/mimmo/Dokumente/projects/c/" . "kr/")
+ ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/" . "reverseString/")
+ ("/home/mimmo/Dokumente/projects/odin/" . "javascript-exercises/")
+ ("/home/mimmo/Dokumente/projects/" . "odin/")
+ ("/home/mimmo/.emacs.d/" . "lisp/")
+ ("/home/mimmo/Dokumente/" . "projects/")
+ ("/home/mimmo/" . "Dokumente/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/mimmo/"
+ "/home/mimmo/.emacs.d/lisp/"
+ "/home/mimmo/Dokumente/projects/odin/javascript-exercises/repeatString/"
+ "/home/mimmo/Dokumente/projects/odin/javascript-exercises/reverseString/"
+ "/home/mimmo/.emacs.d/"
+ "/home/mimmo/Dokumente/projects/c/kr/Intros/"
+ "/home/mimmo/Dokumente/projects/c/kr/Exercises/"
+ "/home/mimmo/Dokumente/emacsbak/"
+ "/home/mimmo/Dokumente/projects/odin/rockPaperScissors/"
+ "/home/mimmo/Dokumente/projects/odin/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".bashrc"
+ "init-editing.el"
+ "README.md"
+ "init-web-mode.el"
+ "init-gui.el"
+ "reverseString.js"
+ "init-lsp.el"
+ "init.el"
+ "init_lsp.el"
+ "character_counting.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mimmo/Dokumente/projects/c/hard/" (24552 25870 897927 0) "ex15.c~" "ex11a" "ex13" "../" "ex15.c" "charToDez.c" "ex10.c" "ex13.c~" "ex10b.c" "ex11.c" "ex11" "ex13.c" "ex10b" "./" "ex10" "ex10a" "ex11a.c" "ex10a.c" "charToDez" "ex15")
+
+ ("/home/mimmo/Dokumente/projects/" (24599 3471 970986 534000) "../" "odin/" "test/" "#k#" "odinWhereToResume.txt" "semantic-html/" "advanced_positioning/" "google-homepage/" "images_responsive/" "./" "rust/" "ex1.c~" "c/" "responsive-design/")
+
+ ("/home/mimmo/Dokumente/projects/rust/" (24599 3498 718737 617000) "../" "main.rs~" "./" "main.rs")
+
+ ("/home/mimmo/" (24599 3443 855248 435000) ".nvimlog" ".bashrc" ".vimrc" ".xsession-errors" "../" "natural_scrolling.sh" ".kde/" ".bash_profile" ".pki/" ".nvidia-settings-rc" ".cargo/" ".rustup/" ".cache/" ".gitconfig" ".ICEauthority" "Dokumente/" ".emacs.d/" ".mozilla/" "Musik/" "Videos/" "Bilder/" ".sane/" ".dmrc" ".themes/" "test.html" ".bashrc~" "fix_scroll.sh" "styles.css" ".config/" "Downloads/" ".sudo_as_admin_successful" ".npm/" ".gtkrc-2.0-kde4" ".gnome/" ".gtkrc-2.0" "snap/" ".ssh/" ".vim/" ".xsession-errors.old" "./" ".profile" ".Xresources" ".dbus/" ".erc/" "Schreibtisch/" ".wget-hsts" ".viminfo" ".emacs.d.bak/" ".bash_history" ".gnupg/" ".bash_logout" ".vscode-oss/" ".icons/" ".emacs~" ".Xauthority" ".var/" ".xfce4-session.verbose-log" ".vscode/" ".local/" "Vorlagen/" ".hplip/" ".thunderbird/" "Öffentlich/" ".xfce4-session.verbose-log.last")
+
+ ("/home/mimmo/.emacs.d/" (24599 3363 587997 727000) "games/" "lisp/" "init.el" "../" "auto-save-list/" "ido.last" "./" "recentf" "elpa/" "ido.last~" "recentf~" "init.el~")
+
+ ("/home/mimmo/Dokumente/projects/c/kr/Exercises/" (24599 1719 140418 819000) "ex_1_4.c" "#ex_1_9.c#" "ex1_6" "Exercise_1_14.c" "ex13" "../" "ex_1_8.c" "ex_1_9" "test" "ex_1_8" "ex_1_11.c" "Exercise_1_13.c" "ex_1_4" "ex_1_9.c~" "ex_1_9_b.c~" "ex1_7.c~" "ex_1_5.c" "ex1_6.c~" "ex_1_9_b" "temperature2.c~" "temperature2.c" "ex_1_5.c~" "ex1_7.c" "ex_1_4.c~" "Ex13" "ex_1_9.c" "ex_1_12" "Exercise_1_14" "Ex14" "ex14" "ex_1_10.c" "ex1_7" "Exercise_1_12.c" "./" "#Exercise_1_14.c#" "temperature" "Exercise_1_15.c~" "temperature.c" "hello_world.c~" "Exercise_1_14.c~" "ex_1_9_b.c" "hello_world" "ex__1_3.c" "Exercise_1_15.c" "ex_1_10" "ex_1_13.c" "hello_world.c" "Exercise_1_12" "Exercise_1_10.c" "ex15" "ex1_6.c" "temperature2" "test.c" "Exercise_1_9.c" "ex_1_12.c" "ex_1_5")
+
+ ("/home/mimmo/Dokumente/projects/c/kr/Intros/" (24594 47124 502911 487000) "for.c~" "character_counting" "../" "temperature.c~" "char_arrays" "#functions.c#" "character_counting.c~" "input.c" "line_counting" "character_counting.c" "file_copying.c" "line_counting.c~" "functions.c" "arrays.c" "for" "./" "for.c" "file_copying" "arrays" "char_arrays.c" "temperature.c" "functions.c~" "#line_counting.c#" "line_counting.c" "word_count" "word_counting.c" "functions" "test.c" "word_count.c")
+
+ ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/reverseString/" (24598 51180 279959 202000) "../" "reverseString.js" "reverseString.spec.js" "./" "README.md")
+
+ ("/home/mimmo/.emacs.d/lisp/" (24599 1711 8609 992000) "init-ido.el" "../" "init-gui.el~" "init-gui.el" "init-web-mode.el~" "init_lsp.el~" "init-recentf.el" "init-lsp.el~" "init-editing.el" "#init-editing.el#" "init-web-mode.el" "./" "init-melpa.el" "init-lsp.el")
+
+ ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/repeatString/" (24599 2720 45771 52000) "../" "./" "README.md" "repeatString.js" "repeatString.spec.js")
+
+ ("/home/mimmo/Dokumente/projects/odin/Exercises/" (24599 1820 890174 970000) "#dom1.html#" "../" "./" "dom1.html" "dom1.html~")
+
+ ("/home/mimmo/Dokumente/projects/odin/" (24598 52316 254014 212000) "../" "rockPaperScissors/" "java_test.html" "javascript-exercises/" "styles.css" "./" "Exercises/")
+
+ ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/" (24598 42869 494399 724000) ".gitignore" "../" "removeFromArray/" "generator-exercise/" "repeatString/" "fibonacci/" "reverseString/" "pig_latin/" "getTheTitles/" "snakeCase/" "tempConversion/" "caesar/" "findTheOldest/" "./" "leapYears/" "palindromes/" ".git/" "helloWorld/" "README.md" "sumAll/" "calculator/")
+
+ ("/home/mimmo/Dokumente/" (24597 45169 344391 879000) "../" "keyboard-shortcuts-linux.pdf" "Arbeit/" "projects/" "Firma/" "Books/" "./" "xfce_initial_settings.md" "C-Reference/" "Sonstiges/")
+
+ ("/home/" (24457 48877 0 0) "liveuser/" "../" "test/" ".directory" "lost+found/" "root/" "./" "domenico/" "mimmo/")
+
+ ("/home/mimmo/Dokumente/projects/c/kr/" (24550 20551 435884 0) "../" "Useful_Templates/" "./" "Exercises/" "Intros/")
+
+ ("/home/mimmo/Dokumente/projects/c/" (24550 20551 505885 0) "finance_app/" "../" "test" "modern/" "ex7/" "ex3/" "Makefile" "ex11/" "./" "ex10/" "ex1" "Exercises/" "kr/" "ex9/" "hard/" "ex1.c" "ex8/" "test.c")
+
+ ("/home/mimmo/Dokumente/projects/odin/rockPaperScissors/" (24575 19331 900615 529000) "../" "test.html" "./" ".git/" "#test.html#")
+
+ ("/home/mimmo/Dokumente/emacsbak/" (24577 63981 226170 820000) ".emacs.bak" "../" ".emacs.bak~" "./" ".emacs.d.bak/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
