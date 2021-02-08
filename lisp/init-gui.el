@@ -41,3 +41,7 @@
 (setq heaven-and-hell-load-theme-no-confirm t)
 (add-hook 'after-init-hook 'heaven-and-hell-init-hook)
 (global-set-key (kbd "<f5>") 'heaven-and-hell-toggle-theme)
+
+;; rainbow-mode
+(require 'rainbow-mode)
+(add-hook 'web-mode-hook #'rainbow-mode)
