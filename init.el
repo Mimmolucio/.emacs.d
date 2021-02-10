@@ -8,3 +8,4 @@
 (require 'init-editing)
 (require 'init-web-mode)
 (require 'init-lsp)
+(require 'init-projectile)
