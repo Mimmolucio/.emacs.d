@@ -25,7 +25,7 @@
 ;;(global-set-key (kbd "<f5>") #'modus-themes-toggle)
 ;;(load-theme 'misterioso t)
 
-(set-face-attribute 'default nil :height 130)
+(set-face-attribute 'default nil :height 120)
 
 ;; neotree
 (add-to-list 'load-path "~/.emacs.d/elpa/neotree-20200324.1946/")
@@ -33,7 +33,7 @@
 (global-set-key [f8] 'neotree-toggle)
 
 ;; toggling between light and dark themes
-(require 'heaven-and-hell)
+;;(require 'heaven-and-hell)
 (setq heaven-and-hell-theme-type 'dark)
 (setq heaven-and-hell-themes
       '((light . leuven)

@@ -1,8 +1,8 @@
 ;; Load path for manually installed packages
 (add-to-list 'load-path "~/.emacs.d/lisp/")
-(package-initialize)
-(require 'init-gui)
+;;(package-initialize)
 (require 'init-melpa)
+(require 'init-gui)
 (require 'init-ido)
 (require 'init-recentf)
 (require 'init-editing)
