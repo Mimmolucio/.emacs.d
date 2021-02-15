@@ -1,1 +1,1 @@
-("~/Dokumente/projects/google-homepage/")
+("~/Dokumente/projects/odin/javascript-exercises/" "~/Dokumente/projects/google-homepage/" "~/.emacs.d/")

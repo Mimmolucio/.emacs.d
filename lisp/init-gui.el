@@ -34,7 +34,7 @@
 
 ;; toggling between light and dark themes
 ;;(require 'heaven-and-hell)
-(setq heaven-and-hell-theme-type 'dark)
+(setq heaven-and-hell-theme-type 'light)
 (setq heaven-and-hell-themes
       '((light . leuven)
         (dark . misterioso)))
