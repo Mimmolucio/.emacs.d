@@ -25,7 +25,7 @@
 ;;(global-set-key (kbd "<f5>") #'modus-themes-toggle)
 ;;(load-theme 'misterioso t)
 
-(set-face-attribute 'default nil :height 120)
+(set-face-attribute 'default nil :height 130)
 
 ;; neotree
 (add-to-list 'load-path "~/.emacs.d/elpa/neotree-20200324.1946/")

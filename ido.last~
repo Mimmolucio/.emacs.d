@@ -5,10 +5,10 @@
  ("/" . "etc/")
  ("/home/" . "mimmo/")
  ("/home/mimmo/Dokumente/projects/c/kr/" . "Exercises/")
- ("/home/mimmo/Dokumente/projects/c/" . "kr/")
+ ("/home/mimmo/Dokumente/projects/c/" . "hard/")
  ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/" . "reverseString/")
- ("/home/mimmo/Dokumente/projects/odin/" . "javascript-exercises/")
- ("/home/mimmo/Dokumente/projects/" . "c/")
+ ("/home/mimmo/Dokumente/projects/odin/" . "koans/")
+ ("/home/mimmo/Dokumente/projects/" . "odin/")
  ("/home/mimmo/.emacs.d/" . "lisp/")
  ("/home/mimmo/Dokumente/" . "projects/")
  ("/home/mimmo/" . "Dokumente/")
@@ -16,11 +16,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mimmo/Dokumente/projects/odin/koans/"
+ "/home/mimmo/.emacs.d/lisp/"
  "/home/mimmo/"
+ "/home/mimmo/Dokumente/projects/c/hard/"
  "/home/mimmo/Dokumente/projects/c/kr/Exercises/"
  "/home/mimmo/Dokumente/projects/c/kr/Intros/"
  "/etc/"
- "/home/mimmo/.emacs.d/lisp/"
  "/home/mimmo/Dokumente/projects/google-homepage/"
  "/home/mimmo/Dokumente/projects/odin/javascript-exercises/repeatString/"
  "/home/mimmo/Dokumente/projects/odin/javascript-exercises/reverseString/"
@@ -32,37 +34,55 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "about_nil.rb"
+ "init-editing.el"
+ ".bashrc"
+ "ex3.c"
+ "Makefile"
+ "MAKEFILE"
+ "ex2.1.mak"
+ "init-gui.el"
  "fix_scroll.sh"
  "Exercise_1_10.c"
- "Exercise_1_14.c"
- "line_counting.c"
- "character_counting.c"
- "character_counting"
- "tlp.conf"
- "init-editing.el"
- "index.html"
- ".bashrc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mimmo/" (24635 40647 44045 818000) ".nvimlog" ".gconf/" "VirtualBox VMs/" ".bashrc" ".vimrc" ".xsession-errors" "../" ".kde/" ".bash_profile" ".pki/" ".nvidia-settings-rc" ".cinnamon/" ".cargo/" ".rustup/" ".cache/" ".pipewire-media-session/" ".gitconfig" ".ICEauthority" "Dokumente/" ".linuxmint/" ".emacs.d/" ".mozilla/" "Musik/" "Videos/" "Bilder/" ".sane/" ".dmrc" ".themes/" ".bashrc~" "fix_scroll.sh" ".config/" "Downloads/" ".sudo_as_admin_successful" ".npm/" ".gtkrc-2.0-kde4" ".gnome/" ".gtkrc-2.0" ".ssh/" ".vim/" ".xsession-errors.old" "./" ".profile" ".Xresources" ".dbus/" ".atom/" ".esd_auth" ".tld_set" ".erc/" "Schreibtisch/" ".wget-hsts" ".viminfo" ".emacs.d.bak/" ".bash_history" ".gnupg/" ".PlayOnLinux/" ".apport-ignore.xml" ".bash_logout" ".vscode-oss/" ".icons/" ".emacs~" ".irb_history" ".nv/" ".Xauthority" ".var/" ".xfce4-session.verbose-log" ".vscode/" ".local/" ".hypnotix/" "Vorlagen/" ".hplip/" ".thunderbird/" "Öffentlich/" ".xfce4-session.verbose-log.last")
+ ("/home/mimmo/Dokumente/projects/odin/koans/" (24650 31576 332940 682000) "about_iteration.rb" "about_sandwich_code.rb" "about_scope.rb" "about_constants.rb" "../" "about_scoring_project.rb" "path_to_enlightenment.rb" "about_proxy_object_project.rb" "about_open_classes.rb" "about_triangle_project_2.rb" "about_arrays.rb" ".path_progress" "about_extra_credit.rb" "about_dice_project.rb" "GREED_RULES.txt" "about_message_passing.rb" "about_methods.rb" "about_java_interop.rb" "triangle.rb" "about_regular_expressions.rb" "neo.rb" "about_triangle_project.rb" "Rakefile" "about_to_str.rb" "koans.watchr" "./" "about_classes.rb" "about_true_and_false.rb" "about_inheritance.rb" ".about_nil.rb.swp" "about_control_statements.rb" "about_exceptions.rb" "example_file.txt" "about_objects.rb" "about_array_assignment.rb" "about_blocks.rb" "about_nil.rb" "about_hashes.rb" "about_symbols.rb" "about_modules.rb" "about_asserts.rb" "about_strings.rb" "about_class_methods.rb" "about_keyword_arguments.rb")
+
+ ("/home/mimmo/Dokumente/projects/odin/" (24646 32424 116721 422000) "../" "rockPaperScissors/" "java_test.html" "koans/" "javascript-exercises/" "styles.css" "exercises/" "./" "Exercises/" "ruby_exercises/")
+
+ ("/home/mimmo/" (24650 17539 143551 696000) ".nvimlog" "ruby-exercises/" ".steampid" ".gconf/" "VirtualBox VMs/" ".lesshst" "Calibre Library/" ".bashrc" ".vimrc" ".xsession-errors" "../" ".kde/" ".bash_profile" "#.bashrcBAK#" "Calibre-Bibliothek/" ".bashrcBAK" ".pki/" ".nvidia-settings-rc" ".cinnamon/" ".cargo/" "Steam/" ".gem/" ".rbenv/" ".rustup/" ".cache/" ".pipewire-media-session/" ".gitconfig" ".ICEauthority" "Dokumente/" ".linuxmint/" ".emacs.d/" ".mozilla/" ".steampath" "Musik/" "Videos/" "Bilder/" ".sane/" ".dmrc" ".themes/" ".bashrc~" ".config/" "Downloads/" ".sudo_as_admin_successful" ".npm/" ".gtkrc-2.0-kde4" ".steam/" ".gnome/" ".bundle/" ".gtkrc-2.0" "snap/" ".ssh/" ".vim/" ".pulse-cookie" ".xsession-errors.old" "./" ".profile" ".Xresources" ".dbus/" ".atom/" ".esd_auth" ".tld_set" ".erc/" "Schreibtisch/" ".wget-hsts" ".vimrcBAK" ".viminfo" ".emacs.d.bak/" ".bash_history" ".gnupg/" ".PlayOnLinux/" ".apport-ignore.xml" ".bash_logout" ".vscode-oss/" ".icons/" ".emacs~" ".irb_history" ".nv/" ".Xauthority" ".var/" ".xfce4-session.verbose-log" ".vscode/" ".local/" "mimmo" ".hypnotix/" "Vorlagen/" ".hplip/" ".thunderbird/" "Öffentlich/" ".xfce4-session.verbose-log.last")
+
+ ("/home/mimmo/.emacs.d/lisp/" (24650 16885 762444 696000) "init-ido.el" "../" "init-gui.el" "init-projectile.el" "init-recentf.el" "init-editing.el" "#init-editing.el#" "init-web-mode.el" "./" "init-melpa.el" "init-lsp.el" "#init-lsp.el#")
+
+ ("/home/mimmo/.emacs.d/" (24650 16896 148862 732000) "games/" "lisp/" "init.el" "../" "projectile-bookmarks.eld" "auto-save-list/" ".lsp-session-v1" "ido.last" "./" "recentf" "elpa/" ".git/" "ido.last~" "recentf~" "init.el~")
+
+ ("/home/mimmo/Dokumente/projects/c/hard/" (24641 20291 428263 484000) "ex8.c~" "../" "ex7" "ex3" "Makefile~" "ex3.c" "Makefile" "ex7.c~" "ex7.c" "./" "ex2.1.mak" "ex3.c~" "ex8.c" "ex1.c~" "ex1.c" "ex8")
+
+ ("/etc/" (24641 18996 998174 352000) "openmpi/" "rsyncd.conf" "libinput/" "pam.d/" "netconfig" "NetworkManager/" "gimp/" "alsa/" "kernel/" "X11/" "gshadow" "locale.gen" "rc_keymaps/" "sudoers" "fuse.conf" "libreoffice/" "lightdm/" "shells" "motd" "profile.d/" "usb_modeswitch.setup" "sensors3.conf" "dnsmasq.conf" "vconsole.conf" "modprobe.d/" "libnl/" "openldap/" "gai.conf" "mtab" "cron.monthly/" "idmapd.conf" "nfsmount.conf" "zsh/" "audit/" "cups/" "slsh.rc" "tmpfiles.d/" "issue" "iproute2/" "protocols" "keyutils/" "tlp.d/" "usb_modeswitch.d/" "manjaro-firefox-developer-edition.ini" "trusted-key.key" "vdpau_wrapper.cfg" "security/" "udev/" "profile" "pacman.conf" "lsb-release" "avahi/" "libva.conf" "exports.d/" "iptables/" "lirc/" "ntp.conf" "ts.conf" "bash.bashrc" "ca-certificates/" "manjaro-firefox-kde.ini" "mke2fs.conf" "adjtime" "sudo.conf" "ethertypes" "binfmt.d/" "pkcs11/" "passwd-" "ld.so.conf" "nanorc" "pacman-mirrors.conf" "cifs-utils/" "nginx/" "manjaro-release" "bindresvport.blacklist" "openswap.conf" "gtk-3.0/" "conf.d/" "nfs.conf" "initcpio/" "updatedb.conf" "mkinitcpio.d/" "fstab" "timeshift/" "default/" "gss/" "ImageMagick-7/" "papersize" "services" "mail.rc" "sudoers.d/" "krb5.conf" "group" "openvpn/" "printcap" "apparmor.d/" "shadow-" "polkit-1/" "shadow" "ssh/" "mhwd-x86_64.conf" "sensors.d/" "pulse/" "cron.hourly/" "nscd.conf" ".updated" "cron.deny" "UPower/" "sysctl.d/" "machine-id" "resolvconf.conf" "cron.weekly/" "ld.so.cache" "libpaper.d/" "os-release" "exports" "ufw/" "gshadow-" "request-key.d/" "bash.bash_logout" "sddm.conf.d/" "dhcpcd.conf" "host.conf" "xattr.conf" "libaudit.conf" "gufw/" "nsswitch.conf" "login.defs" "crypttab" "xinetd.d/" "ld.so.conf.d/" "sudo_logsrvd.conf" "skel/" "man_db.conf" "cron.daily/" "request-key.conf" "modules-load.d/" "ssl/" ".pwd.lock" "grub-customizer/" "usb_modeswitch.conf" "gtk-2.0/" "resolv.conf" "hostname" "rc_maps.cfg" "depmod.d/" "fonts/" "logrotate.conf" "dbus-1/" "tlp.conf" "dconf/" "healthd.conf" "gdb/" "localtime" "bluetooth/" "vpnc/" "gssproxy/" "logrotate.d/" "securetty" "samba/" "environment" "wgetrc" "makepkg.conf" "manjaro-firefox.ini" "inputrc" "locale.conf" "e2scrub.conf" "arch-release" "anacrontab" "hp/" "udisks2/" "sane.d/" "mkinitcpio.conf" "ndctl/" "passwd" "foomatic/" "timezone" "mdadm.conf" "wpa_supplicant/" "xdg/" "systemd/" "./" "acpi/" "xml/" "hosts" "lvm/" "pacman.d/" "cpufreq-bench.conf" "libblockdev/" "rpc" "asciidoc/" "../" "mailcap" "ppp/" "manjaro-thunderbird.ini" "mime.types" "pamac.conf" "group-" "grub.d/" "ctdb/" "optimus-manager/" "cron.d/")
+
+ ("/home/mimmo/Dokumente/projects/odin/rockPaperScissors/" (24606 63107 34107 908000) "../" "test.html" "./" ".git/" "#test.html#")
+
+ ("/home/mimmo/Dokumente/projects/google-homepage/" (24613 31547 16125 891000) "../" "styles.css" "images/" "./" ".git/" "README.md" "styles.css~" "index.html")
+
+ ("/home/mimmo/Dokumente/projects/c/" (24637 65410 566119 277000) "finance_app/" "../" "test" "modern/" "ex7/" "ex3/" "Makefile" "ex11/" "./" "ex10/" "ex1" "Exercises/" "kr/" "ex9/" "hard/" "ex1.c" "ex8/" "test.c")
+
+ ("/home/mimmo/Dokumente/" (24636 50823 687939 530000) "../" "Arbeit/" "projects/" "Firma/" "Books/" "./" "C-Reference/" "Sonstiges/")
+
+ ("/home/mimmo/Dokumente/projects/odin/exercises/" (24635 52054 929950 126000) "ruby-exercises/" "../" "./")
+
+ ("/home/mimmo/Dokumente/projects/odin/exercises/ruby-exercises/" (24635 52086 866619 36000) "ruby_basics/" "../" "Gemfile.lock" ".ruby-version" "./" ".git/" "README.md" "Gemfile" "LICENSE")
+
+ ("/home/mimmo/Dokumente/projects/odin/exercises/ruby-exercises/ruby_basics/" (24635 52086 873285 704000) "1_data_types/" "7_hashes/" "../" "9_basic_enumerables/" "8_methods/" "./" "README.md" "6_arrays/")
+
+ ("/home/mimmo/Dokumente/projects/odin/exercises/ruby-exercises/ruby_basics/1_data_types/" (24635 52086 869952 371000) "../" "spec/" "exercises/" "./" ".rspec")
+
+ ("/home/mimmo/Dokumente/projects/odin/exercises/ruby-exercises/ruby_basics/1_data_types/exercises/" (24635 52086 869952 371000) "../" "./" "numbers_exercises.rb" "string_exercises.rb")
 
  ("/home/mimmo/Downloads/" (24630 46921 759633 570000) "wallpapertip_espacio-wallpaper-hd_248006.jpg" "code_1.52.1-1608136922_amd64.deb" "Super Tennis (Europe) (Rev 1).zip" "../" "German_ALS_20161011_Preliminary (1).pdf" "nord-xfce-terminal-develop (1).zip" "Prof--XFCE- 2.1.tar.gz" "ALS-en.zip" "archlinux-2021.02.01-x86_64.iso.part" "maia-gtk-master.zip" "kora_1-4-0.zip" "manjaro-xfce-20.2.1-minimal-210103-linux59.iso" "nord-xfce-terminal-develop (2).zip" "kora-grey_1-4-0.zip" "ZS0001358000010.pdf" "14th_birthday_x1.jpg" "Ant-standard-buttons.tar" "pipes.sh-master.zip" "archlinux-2021.02.01-x86_64.iso.torrent" "LibreOffice_7.0.4_Linux_x86-64_deb.tar.gz" "Ant-Slim.tar" "Ubuntu Mono Nerd Font Complete Mono.ttf" "wallpapertip_4k-white-wallpaper_2008272.jpg" "xfce4-terminal-colorschemes/" "pipes.sh-master/" "German_ALS_20161011_Preliminary.pdf" "tiptoi_Manager_Installer.exe" "Arc-ICONS_1.5.7.zip" "Ant.tar" "nordxfce/" "CascadiaCode-2009.22.zip" "Tela-icon-theme-master.zip" "./" "google-chrome-stable_current_amd64.deb" "endeavouros-2021.02.03-x86_64.iso.torrent" "atom-amd64.deb" "110023262-wallpaper-with-multicolored-confetti-pattern-for-design-festive-background-with-glitters-on-white-pr.jpg" "Ubuntu-20.10-Groovy-Gorilla-Wallpaper-8192x4608-5.jpg" "ERC Kurs Unterlagen.zip" "Papirus-Nord.tar.gz" "teamviewer_15.13.6_amd64.deb" "arc-icon-theme-master.zip" "Ubuntu Mono Bold Italic Nerd Font Complete Mono.ttf" "17520.jpg" "Ubuntu Mono Italic Nerd Font Complete Mono.ttf" "vim/" "mint-themes_1.8.3_all.deb" "Dracula.zip" "Prof-XFCE-2.1-Light-Panel.tar.gz" "Ubuntu Mono Bold Nerd Font Complete Mono.ttf" "Tela-icon-theme-master/" "gtk-master.zip" "Ant-Nebula.tar" "ERC-Leitlinien_Poster_2015.zip" "debian-live-10.7.0-amd64-xfce+nonfree.iso.torrent")
 
  ("/home/mimmo/Dokumente/projects/c/kr/Intros/" (24628 8526 869430 427000) "for.c~" "character_counting" "../" "temperature.c~" "char_arrays" "#functions.c#" "character_counting.c~" "input.c" "line_counting" "character_counting.c" "file_copying.c" "line_counting.c~" "functions.c" "arrays.c" "for" "./" "for.c" "file_copying" "arrays" "char_arrays.c" "temperature.c" "functions.c~" "#line_counting.c#" "line_counting.c" "word_count" "word_counting.c" "functions" "test.c" "word_count.c")
-
- ("/home/mimmo/Dokumente/" (24630 24848 359604 673000) "../" "Arbeit/" "ZS0001358000010.pdf" "Prototyp 2.0.pdf" "fix_scroll.sh" "projects/" "Firma/" "Books/" "./" "xfce_initial_settings.md" "C-Reference/" "Sonstiges/")
-
- ("/etc/" (24630 47313 327489 715000) "e2scrub.conf" "protocols" "os-release" "X11/" "ltrace.conf" "openni2/" "subgid" "acpi/" "vtrgb" "timidity/" "hp/" "console-setup/" "perl/" "xdg/" "speech-dispatcher/" "modules" "mailcap.order" "dconf/" "rpc" "grub.d/" "rc4.d/" "gtk-3.0/" "udev/" "sensors3.conf" "dictionaries-common/" "cron.d/" "alternatives/" "modprobe.d/" "polkit-1/" "purple/" "default/" "libreoffice/" "libblockdev/" "gnome-system-tools/" "libaudit.conf" "fstab" "group-" "vdpau_wrapper.cfg" "legal" "initramfs-tools/" "passwd" "xml/" "doc-base/" "init/" "gimp/" "OpenCL/" "vulkan/" "ifplugd/" "zsh_command_not_found" "locale.gen" "mime.types" "appstream.conf" "bash_completion" "depmod.d/" "bash.bashrc" "cron.monthly/" "groff/" "kernel-img.conf" "ld.so.conf.d/" "gss/" "dbus-1/" "update-notifier/" "tlp.d/" "rcS.d/" "sudoers" "bluetooth/" "rsyslog.conf" "subuid-" "modules-load.d/" "network/" "gshadow" "emacs/" "dkms/" "usb_modeswitch.conf" "debian_version" "pnm2ppa.conf" "sysctl.d/" "cupshelpers/" "tlp.conf~" "binfmt.d/" "nsswitch.conf" "kernel/" "apparmor/" "rc6.d/" "cups/" "rc1.d/" "ssl/" "fwupd/" "ucf.conf" "apparmor.d/" "mailcap" "passwd-" "netconfig" "pcmcia/" "python3.8/" "hddtemp.db" "ubuntu-advantage/" "bash_completion.d/" "brltty/" "rc5.d/" "group" "apm/" "inputrc" "rmt" "networkd-dispatcher/" "lightdm/" "libao.conf" "hosts.deny" "logcheck/" "udisks2/" "ca-certificates.conf.dpkg-old" "systemd/" "sysctl.conf" "NetworkManager/" "apt/" "environment" "adduser.conf" "terminfo/" "subgid-" "pki/" "gnome/" "ldap/" "anacrontab" "guest-session/" "brltty.conf" "xfce4/" "fonts/" "manpath.config" "thermald/" "tlp.conf" "mke2fs.conf" "ghostscript/" "security/" "UPower/" "ld.so.cache" "locale.alias" "gtk-2.0/" "netplan/" "ssh/" "magic" "login.defs" "gshadow-" "subuid" "localtime" "updatedb.conf" "vim/" "opt/" "rc0.d/" "shadow-" "profile" "services" ".pwd.lock" "timezone" "logrotate.conf" "selinux/" "ipp-usb/" "init.d/" "resolv.conf" "logrotate.d/" "fuse.conf" "python3/" "shells" "rsyslog.d/" "crontab" "sudo_logsrvd.conf" "sensors.d/" "ld.so.conf" "gai.conf" "iproute2/" "tmpfiles.d/" "sudo.conf" "magic.mime" "snmp/" "deluser.conf" "cron.hourly/" "sane.d/" "host.conf" "ca-certificates.conf" "rc2.d/" "ppp/" "environment.d/" "update-manager/" "cron.weekly/" "issue" "dpkg/" "PackageKit/" "wgetrc" "pam.d/" "libpaper.d/" "alsa/" "bindresvport.blacklist" "lsb-release" "glvnd/" "newt/" "pam.conf" "hosts" "pulse/" "avahi/" "issue.net" "hostid" "brlapi.key" "thunderbird/" "usb_modeswitch.d/" "ufw/" "hosts.allow" "ca-certificates/" "dhcp/" "hostname" "kerneloops.conf" "gdb/" "mtab" "ethertypes" "nanorc" "debconf.conf" "update-motd.d/" "sudoers.d/" "skel/" "cron.daily/" "ImageMagick-6/" "papersize" "profile.d/" "hdparm.conf" "libnl-3/" "wpa_supplicant/" "shadow" "sgml/" "openal/" "chatscripts/" "machine-id" "zfs/" "firefox/" "networks" "mysql/" "xattr.conf" "prime-discrete" "apport/" "pm/" "inxi.conf" "rc3.d/" "../" "./")
-
- ("/home/mimmo/.emacs.d/lisp/" (24618 15272 531084 837000) "init-ido.el" "../" "init-gui.el" "init-projectile.el" "init-recentf.el" "init-editing.el" "#init-editing.el#" "init-web-mode.el" "./" "init-melpa.el" "init-lsp.el")
-
- ("/home/mimmo/Dokumente/projects/google-homepage/" (24609 43678 925825 317000) "../" "#index.html#" "styles.css" "images/" "./" ".git/" "README.md" "styles.css~" "index.html")
-
- ("/home/mimmo/.emacs.d/" (24611 58177 543079 722000) "games/" "lisp/" "init.el" "../" "auto-save-list/" ".lsp-session-v1" "ido.last" "./" "recentf" "elpa/" ".git/" "ido.last~" "recentf~" "init.el~")
-
- ("/home/mimmo/Dokumente/projects/c/hard/" (24552 25870 897927 0) "ex15.c~" "ex11a" "ex13" "../" "ex15.c" "charToDez.c" "ex10.c" "ex13.c~" "ex10b.c" "ex11.c" "ex11" "ex13.c" "ex10b" "./" "ex10" "ex10a" "ex11a.c" "ex10a.c" "charToDez" "ex15")
 
  ("/home/mimmo/Dokumente/projects/" (24599 3471 970986 534000) "../" "odin/" "test/" "#k#" "odinWhereToResume.txt" "semantic-html/" "advanced_positioning/" "google-homepage/" "images_responsive/" "./" "rust/" "ex1.c~" "c/" "responsive-design/")
 
@@ -76,17 +96,11 @@
 
  ("/home/mimmo/Dokumente/projects/odin/Exercises/" (24599 1820 890174 970000) "#dom1.html#" "../" "./" "dom1.html" "dom1.html~")
 
- ("/home/mimmo/Dokumente/projects/odin/" (24598 52316 254014 212000) "../" "rockPaperScissors/" "java_test.html" "javascript-exercises/" "styles.css" "./" "Exercises/")
-
  ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/" (24598 42869 494399 724000) ".gitignore" "../" "removeFromArray/" "generator-exercise/" "repeatString/" "fibonacci/" "reverseString/" "pig_latin/" "getTheTitles/" "snakeCase/" "tempConversion/" "caesar/" "findTheOldest/" "./" "leapYears/" "palindromes/" ".git/" "helloWorld/" "README.md" "sumAll/" "calculator/")
 
  ("/home/" (24457 48877 0 0) "liveuser/" "../" "test/" ".directory" "lost+found/" "root/" "./" "domenico/" "mimmo/")
 
  ("/home/mimmo/Dokumente/projects/c/kr/" (24550 20551 435884 0) "../" "Useful_Templates/" "./" "Exercises/" "Intros/")
-
- ("/home/mimmo/Dokumente/projects/c/" (24550 20551 505885 0) "finance_app/" "../" "test" "modern/" "ex7/" "ex3/" "Makefile" "ex11/" "./" "ex10/" "ex1" "Exercises/" "kr/" "ex9/" "hard/" "ex1.c" "ex8/" "test.c")
-
- ("/home/mimmo/Dokumente/projects/odin/rockPaperScissors/" (24575 19331 900615 529000) "../" "test.html" "./" ".git/" "#test.html#")
 
  ("/home/mimmo/Dokumente/emacsbak/" (24577 63981 226170 820000) ".emacs.bak" "../" ".emacs.bak~" "./" ".emacs.d.bak/")
 )
