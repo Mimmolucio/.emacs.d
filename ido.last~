@@ -2,23 +2,32 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/mimmo/Dokumente/projects/cs50x/pset3/" . "runoff/")
+ ("/home/mimmo/Dokumente/projects/cs50x/" . "pset3/")
  ("/" . "etc/")
  ("/home/" . "mimmo/")
  ("/home/mimmo/Dokumente/projects/c/kr/" . "Exercises/")
  ("/home/mimmo/Dokumente/projects/c/" . "hard/")
  ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/" . "reverseString/")
- ("/home/mimmo/Dokumente/projects/odin/" . "koans/")
- ("/home/mimmo/Dokumente/projects/" . "odin/")
+ ("/home/mimmo/Dokumente/projects/odin/" . "ruby_exercises/")
+ ("/home/mimmo/Dokumente/projects/" . "cs50x/")
  ("/home/mimmo/.emacs.d/" . "lisp/")
  ("/home/mimmo/Dokumente/" . "projects/")
- ("/home/mimmo/" . "Dokumente/")
+ ("/home/mimmo/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/mimmo/Dokumente/projects/odin/koans/"
  "/home/mimmo/.emacs.d/lisp/"
+ "/home/mimmo/Dokumente/projects/cs50x/pset3/runoff/"
+ "/home/mimmo/Dokumente/projects/cs50x/population/"
+ "/home/mimmo/Downloads/"
+ "/home/mimmo/Dokumente/projects/assembly/"
+ "/home/mimmo/Dokumente/projects/modern_c/"
  "/home/mimmo/"
+ "/home/mimmo/.emacs.d/"
+ "/home/mimmo/Dokumente/projects/odin/ruby_exercises/"
+ "/home/mimmo/Dokumente/projects/odin/koans/"
  "/home/mimmo/Dokumente/projects/c/hard/"
  "/home/mimmo/Dokumente/projects/c/kr/Exercises/"
  "/home/mimmo/Dokumente/projects/c/kr/Intros/"
@@ -26,7 +35,6 @@
  "/home/mimmo/Dokumente/projects/google-homepage/"
  "/home/mimmo/Dokumente/projects/odin/javascript-exercises/repeatString/"
  "/home/mimmo/Dokumente/projects/odin/javascript-exercises/reverseString/"
- "/home/mimmo/.emacs.d/"
  "/home/mimmo/Dokumente/emacsbak/"
  "/home/mimmo/Dokumente/projects/odin/rockPaperScissors/"
  "/home/mimmo/Dokumente/projects/odin/"
@@ -34,29 +42,55 @@
 
 ;; ----- ido-work-file-list -----
 (
- "about_nil.rb"
- "init-editing.el"
- ".bashrc"
- "ex3.c"
- "Makefile"
- "MAKEFILE"
- "ex2.1.mak"
  "init-gui.el"
- "fix_scroll.sh"
- "Exercise_1_10.c"
+ "runoff.c"
+ "population.c"
+ "hello.asm"
+ "example_error_file"
+ "init-lsp.el"
+ "ten_pi.c"
+ "learnc.c"
+ "test.c"
+ "init-editing.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/mimmo/.emacs.d/lisp/" (24991 40871 678390 200000) "#init-editing.el#" "init-lsp.el" "init-projectile.el" "init-gui.el" "init-ido.el" "init-web-mode.el" "../" "./" "init-editing.el" "#init-lsp.el#" "init-melpa.el" "init-recentf.el")
+
+ ("/home/mimmo/.emacs.d/" (25017 857 728095 363000) "games/" "recentf" "auto-save-list/" "lisp/" "recentf~" "init.el" "../" "./" ".git/" "ido.last" "projectile-bookmarks.eld" "elpa/" "init.el~" "ido.last~")
+
+ ("/home/mimmo/Dokumente/projects/cs50x/pset3/runoff/" (25017 1160 941982 949000) "../" "./" "runoff.c~" ".#runoff.c" "runoff.c")
+
+ ("/home/mimmo/Dokumente/projects/cs50x/pset3/" (25014 11828 266079 672000) "../" "./" "plurality/" "tideman/" "runoff/")
+
+ ("/home/mimmo/Dokumente/projects/cs50x/population/" (25014 11828 118079 131000) "population.c~" "population" "../" "./" "population.c" "poplulation")
+
+ ("/home/mimmo/Dokumente/projects/cs50x/" (25014 12226 499417 1000) "substitution/" "mario/" "Makefile" "credit/" "scrabble/" "readability/" "population/" "../" "lab3/" "./" ".buildconfig" "test.c" "pset3/")
+
+ ("/home/mimmo/Dokumente/" (25013 57744 827350 786000) "printing-template.html.pdf" "nikolo_maceo.odt" "FS_Stefanie_Lo_Piccolo.pdf" "The.Art.of.Assembly.Language.2nd.Edition.pdf" "ascii.png" "ABCDE Fall 3.pdf" "Learn C the Hard Way.pdf" "projects/" "ABCDE Fall 6.pdf" "ABCDE Fall 5.pdf" "Formular.pdf" "ga.pdf" "Karten_EKG.docx" "TheGoProgrammingLanguage-BrianW.Kernighan.epub" "nikolo_elia.odt" "tachykardie.pptx" "ABCDE Fall 2.pdf" "ABCDE Fall 4.pdf" "Assembly Language Step-By-Step - Programming with Linux, 3rd edition (Wiley, 2009, 0470497025).pdf" "Programm_ILS_Training_2021.pdf" "ABCDE Fall 1.pdf" "fmaily.pdf" "sicp.pdf" "Kostenvoranschlag_Lo_Piccolo.pdf" "The.Go.Programming.Language.pdf" "../" "WG Schreiben zum Schadenfall 21-005134428-E-530, Domenico Lo Piccolo.pdf" "./" "bookmarks-2021-11-16_195_mx5zdm2SPxCb7Dua4TlHRQ==.jsonlz4" "Einteilung_ILS_2021.xlsx_0.ods" "210205_Nachweis_Testung-analog_DinA4_v2.pdf" "Ausgabe.pdf" "Einteilung_ILS_2021.xlsx" "koepfe.pdf" "LO PICCOLO.pdf" "Periarrest.odp" "k&r.pdf" "lo_piccolo.pdf" "koepfe.xcf" "Schreiben Generali Versicherung AG.pdf" "Intox.docx" "ModernC.pdf" "Beginning x64 Assembly Programming From Novice to AVX Professional by Jo Van Hoey (z-lib.org).pdf")
+
+ ("/home/mimmo/" (25014 11612 122133 568000) "Schreibtisch/" ".gphoto/" ".Xauthority" ".kde/" ".gitconfig" "Videos/" ".mozilla/" "Bilder/" ".bash_history" ".gnupg/" ".vim/" ".local/" ".bash_logout" ".python_history" ".themes/" "go/" ".dmrc" ".cache/" ".emacs.d/" ".gtkrc-2.0" ".linuxmint/" ".vscode/" ".ICEauthority" "Öffentlich/" ".erc/" "snap/" ".viminfo" ".vimrc" ".npm/" ".thunderbird/" "../" ".dbus/" ".config/" "./" "VirtualBox VMs/" ".xsession-errors.old" ".profile" ".var/" ".nvidia-settings-rc" ".atom/" "Vorlagen/" ".xsession-errors" ".wget-hsts" ".dreamchess/" "Projekte/" ".bashrc" ".wine/" ".odbc.ini" ".ssh/" ".gconf/" "Downloads/" ".pki/" ".bashrc~" ".cinnamon/" ".sudo_as_admin_successful" "Dokumente/" ".icons/" "Musik/")
+
+ ("/home/mimmo/Dokumente/projects/" (24991 39507 939301 81000) "kilo/" "sicp/" "odin/" "test2.c" "cs50x/" "../" "test.js" "./" "assembly/" "test.c" "c/" "build_lisp/" "gotest/" "modern_c/")
+
+ ("/home/" (24931 63573 0 0) ".directory" "lost+found/" "../" "./" "mimmo/")
+
+ ("/home/mimmo/Downloads/" (24991 39466 620526 162000) "assembler.xml" "12 Tachycardia, cardioversion guidance_IHCA_2021.pdf" "iTunes64Setup.exe" "mint-x-icons_1.6.3_all.deb" "code_1.62.2-1636665017_amd64.deb" "cameron-venti-35uZM_4wjYg-unsplash.jpg" "e08ce3aa-1be5-48de-8aeb-4052654c10d7.pdf" "Schweinslungenbraten im Backrohr - Rezept _ GuteKueche.at.pdf" "12 Tachycardia, cardioversion_IHCA_2021.pptx" "learnc.c~" "2021_Velden_Programm.pdf" "asm.lang" "ubuntu-21.10-desktop-amd64.iso" "11 Bradycardia, pacing_IHCA_2021 (1).pptx" "11 Bradycardia, pacing_IHCA_2021.pptx" "xubuntu-21.10-desktop-amd64.iso.torrent" "Tachykardie Algo GRC 16.06.2021(1).pdf" "certificate-ALS (1).pdf" "Programm_ILS_Training_2021.docx" "German_ALS_20161011_Preliminary.pdf" "Programm_ILS_Training_2021.pdf" "TrueType.zip" "gma-2015-paul-von-poellnitz-v442.pdf" "2901850.png" "Fallbeispiele_ABCDE.zip" "Rücksendezentrum.pdf" "820194.jpg" "Tachykardie Algo GRC 16.06.2021.pdf" "Adwaita-dark-Xfce.tar.gz" "../" "linuxmint-20.2-cinnamon-64bit.iso (1).torrent" "mover_trial_installer.exe" "libcs50-10.1.1.tar.gz" "./" "go1.17.3.linux-amd64.tar.gz" "Aquarium.sb3" "Adwaita-Shell.zip" "population.c" "linuxmint-20.2-cinnamon-64bit.iso" "cantarell/" "Imageb0dd721e1fb04967bcc5c8c737aa62df.png" "certificate-ALS.pdf" "174557-Adwaita-xfwm4-2015-12-17.zip" "csm_1613797_4da20d5089_0c11796289.jpg" "google-chrome-stable_current_amd64.deb" "Adwaita-Xfce.tar.gz" "tiptoi_Manager_Installer.exe" "learnc.c" "11 Bradycardia, pacing guidance_IH_2021.pdf" "org.gnome.TextEditor.Devel.flatpakref" "test" "thunderbird.tmp/" "firefox.tmp/" "test.c" "Torsades-de-Pointes-The-figure-shows-an-EKG-tracing-from-a-patient-with-ventricular.png" ".#population.c" "libcs50-10.1.1/" "print-certificates-281370.pdf" "mint-themes_1.8.9experimental_all.deb" "12 Tachycardia, cardioversion_IHCA_2021 (1).pptx" "792689.jpg" "org.gnome.TextEditor.Devel (1).flatpakref" "linuxmint-20.2-cinnamon-64bit.iso.torrent" "go1.17.3.linux-amd64(1).tar.gz")
+
+ ("/home/mimmo/Dokumente/projects/c/" (24969 30157 672524 316000) "squeeze" "squeeze.c~" "../" "./" "htoi.c~" "htoi.c" "htoi" "squeeze.c")
+
+ ("/home/mimmo/Dokumente/projects/sicp/" (24967 40800 343338 473000) "test.scheme" "../" "./" ".#test.scheme")
+
+ ("/home/mimmo/Dokumente/projects/assembly/" (24954 65075 129505 46000) "hello.asm~" "../" "./" "hello.asm")
+
+ ("/home/mimmo/Dokumente/projects/modern_c/" (24947 4573 650468 615000) "ten_pi.c" "ten_pi" "hello.c" "hello.c~" "ten_pi.c~" "example_error_file" "hello" "error_print.c" "../" "./" "error_print")
+
+ ("/home/mimmo/Dokumente/projects/odin/ruby_exercises/" (24650 32803 637938 585000) "../" "optional_parameters.rb" "evaluate_num.rb~" "./" ".optional_parameters.rb.swp" "caps_method.rb" "evaluate_num.rb")
+
  ("/home/mimmo/Dokumente/projects/odin/koans/" (24650 31576 332940 682000) "about_iteration.rb" "about_sandwich_code.rb" "about_scope.rb" "about_constants.rb" "../" "about_scoring_project.rb" "path_to_enlightenment.rb" "about_proxy_object_project.rb" "about_open_classes.rb" "about_triangle_project_2.rb" "about_arrays.rb" ".path_progress" "about_extra_credit.rb" "about_dice_project.rb" "GREED_RULES.txt" "about_message_passing.rb" "about_methods.rb" "about_java_interop.rb" "triangle.rb" "about_regular_expressions.rb" "neo.rb" "about_triangle_project.rb" "Rakefile" "about_to_str.rb" "koans.watchr" "./" "about_classes.rb" "about_true_and_false.rb" "about_inheritance.rb" ".about_nil.rb.swp" "about_control_statements.rb" "about_exceptions.rb" "example_file.txt" "about_objects.rb" "about_array_assignment.rb" "about_blocks.rb" "about_nil.rb" "about_hashes.rb" "about_symbols.rb" "about_modules.rb" "about_asserts.rb" "about_strings.rb" "about_class_methods.rb" "about_keyword_arguments.rb")
 
  ("/home/mimmo/Dokumente/projects/odin/" (24646 32424 116721 422000) "../" "rockPaperScissors/" "java_test.html" "koans/" "javascript-exercises/" "styles.css" "exercises/" "./" "Exercises/" "ruby_exercises/")
-
- ("/home/mimmo/" (24650 17539 143551 696000) ".nvimlog" "ruby-exercises/" ".steampid" ".gconf/" "VirtualBox VMs/" ".lesshst" "Calibre Library/" ".bashrc" ".vimrc" ".xsession-errors" "../" ".kde/" ".bash_profile" "#.bashrcBAK#" "Calibre-Bibliothek/" ".bashrcBAK" ".pki/" ".nvidia-settings-rc" ".cinnamon/" ".cargo/" "Steam/" ".gem/" ".rbenv/" ".rustup/" ".cache/" ".pipewire-media-session/" ".gitconfig" ".ICEauthority" "Dokumente/" ".linuxmint/" ".emacs.d/" ".mozilla/" ".steampath" "Musik/" "Videos/" "Bilder/" ".sane/" ".dmrc" ".themes/" ".bashrc~" ".config/" "Downloads/" ".sudo_as_admin_successful" ".npm/" ".gtkrc-2.0-kde4" ".steam/" ".gnome/" ".bundle/" ".gtkrc-2.0" "snap/" ".ssh/" ".vim/" ".pulse-cookie" ".xsession-errors.old" "./" ".profile" ".Xresources" ".dbus/" ".atom/" ".esd_auth" ".tld_set" ".erc/" "Schreibtisch/" ".wget-hsts" ".vimrcBAK" ".viminfo" ".emacs.d.bak/" ".bash_history" ".gnupg/" ".PlayOnLinux/" ".apport-ignore.xml" ".bash_logout" ".vscode-oss/" ".icons/" ".emacs~" ".irb_history" ".nv/" ".Xauthority" ".var/" ".xfce4-session.verbose-log" ".vscode/" ".local/" "mimmo" ".hypnotix/" "Vorlagen/" ".hplip/" ".thunderbird/" "Öffentlich/" ".xfce4-session.verbose-log.last")
-
- ("/home/mimmo/.emacs.d/lisp/" (24650 16885 762444 696000) "init-ido.el" "../" "init-gui.el" "init-projectile.el" "init-recentf.el" "init-editing.el" "#init-editing.el#" "init-web-mode.el" "./" "init-melpa.el" "init-lsp.el" "#init-lsp.el#")
-
- ("/home/mimmo/.emacs.d/" (24650 16896 148862 732000) "games/" "lisp/" "init.el" "../" "projectile-bookmarks.eld" "auto-save-list/" ".lsp-session-v1" "ido.last" "./" "recentf" "elpa/" ".git/" "ido.last~" "recentf~" "init.el~")
 
  ("/home/mimmo/Dokumente/projects/c/hard/" (24641 20291 428263 484000) "ex8.c~" "../" "ex7" "ex3" "Makefile~" "ex3.c" "Makefile" "ex7.c~" "ex7.c" "./" "ex2.1.mak" "ex3.c~" "ex8.c" "ex1.c~" "ex1.c" "ex8")
 
@@ -65,10 +99,6 @@
  ("/home/mimmo/Dokumente/projects/odin/rockPaperScissors/" (24606 63107 34107 908000) "../" "test.html" "./" ".git/" "#test.html#")
 
  ("/home/mimmo/Dokumente/projects/google-homepage/" (24613 31547 16125 891000) "../" "styles.css" "images/" "./" ".git/" "README.md" "styles.css~" "index.html")
-
- ("/home/mimmo/Dokumente/projects/c/" (24637 65410 566119 277000) "finance_app/" "../" "test" "modern/" "ex7/" "ex3/" "Makefile" "ex11/" "./" "ex10/" "ex1" "Exercises/" "kr/" "ex9/" "hard/" "ex1.c" "ex8/" "test.c")
-
- ("/home/mimmo/Dokumente/" (24636 50823 687939 530000) "../" "Arbeit/" "projects/" "Firma/" "Books/" "./" "C-Reference/" "Sonstiges/")
 
  ("/home/mimmo/Dokumente/projects/odin/exercises/" (24635 52054 929950 126000) "ruby-exercises/" "../" "./")
 
@@ -80,11 +110,7 @@
 
  ("/home/mimmo/Dokumente/projects/odin/exercises/ruby-exercises/ruby_basics/1_data_types/exercises/" (24635 52086 869952 371000) "../" "./" "numbers_exercises.rb" "string_exercises.rb")
 
- ("/home/mimmo/Downloads/" (24630 46921 759633 570000) "wallpapertip_espacio-wallpaper-hd_248006.jpg" "code_1.52.1-1608136922_amd64.deb" "Super Tennis (Europe) (Rev 1).zip" "../" "German_ALS_20161011_Preliminary (1).pdf" "nord-xfce-terminal-develop (1).zip" "Prof--XFCE- 2.1.tar.gz" "ALS-en.zip" "archlinux-2021.02.01-x86_64.iso.part" "maia-gtk-master.zip" "kora_1-4-0.zip" "manjaro-xfce-20.2.1-minimal-210103-linux59.iso" "nord-xfce-terminal-develop (2).zip" "kora-grey_1-4-0.zip" "ZS0001358000010.pdf" "14th_birthday_x1.jpg" "Ant-standard-buttons.tar" "pipes.sh-master.zip" "archlinux-2021.02.01-x86_64.iso.torrent" "LibreOffice_7.0.4_Linux_x86-64_deb.tar.gz" "Ant-Slim.tar" "Ubuntu Mono Nerd Font Complete Mono.ttf" "wallpapertip_4k-white-wallpaper_2008272.jpg" "xfce4-terminal-colorschemes/" "pipes.sh-master/" "German_ALS_20161011_Preliminary.pdf" "tiptoi_Manager_Installer.exe" "Arc-ICONS_1.5.7.zip" "Ant.tar" "nordxfce/" "CascadiaCode-2009.22.zip" "Tela-icon-theme-master.zip" "./" "google-chrome-stable_current_amd64.deb" "endeavouros-2021.02.03-x86_64.iso.torrent" "atom-amd64.deb" "110023262-wallpaper-with-multicolored-confetti-pattern-for-design-festive-background-with-glitters-on-white-pr.jpg" "Ubuntu-20.10-Groovy-Gorilla-Wallpaper-8192x4608-5.jpg" "ERC Kurs Unterlagen.zip" "Papirus-Nord.tar.gz" "teamviewer_15.13.6_amd64.deb" "arc-icon-theme-master.zip" "Ubuntu Mono Bold Italic Nerd Font Complete Mono.ttf" "17520.jpg" "Ubuntu Mono Italic Nerd Font Complete Mono.ttf" "vim/" "mint-themes_1.8.3_all.deb" "Dracula.zip" "Prof-XFCE-2.1-Light-Panel.tar.gz" "Ubuntu Mono Bold Nerd Font Complete Mono.ttf" "Tela-icon-theme-master/" "gtk-master.zip" "Ant-Nebula.tar" "ERC-Leitlinien_Poster_2015.zip" "debian-live-10.7.0-amd64-xfce+nonfree.iso.torrent")
-
  ("/home/mimmo/Dokumente/projects/c/kr/Intros/" (24628 8526 869430 427000) "for.c~" "character_counting" "../" "temperature.c~" "char_arrays" "#functions.c#" "character_counting.c~" "input.c" "line_counting" "character_counting.c" "file_copying.c" "line_counting.c~" "functions.c" "arrays.c" "for" "./" "for.c" "file_copying" "arrays" "char_arrays.c" "temperature.c" "functions.c~" "#line_counting.c#" "line_counting.c" "word_count" "word_counting.c" "functions" "test.c" "word_count.c")
-
- ("/home/mimmo/Dokumente/projects/" (24599 3471 970986 534000) "../" "odin/" "test/" "#k#" "odinWhereToResume.txt" "semantic-html/" "advanced_positioning/" "google-homepage/" "images_responsive/" "./" "rust/" "ex1.c~" "c/" "responsive-design/")
 
  ("/home/mimmo/Dokumente/projects/rust/" (24599 3498 718737 617000) "../" "main.rs~" "./" "main.rs")
 
@@ -97,8 +123,6 @@
  ("/home/mimmo/Dokumente/projects/odin/Exercises/" (24599 1820 890174 970000) "#dom1.html#" "../" "./" "dom1.html" "dom1.html~")
 
  ("/home/mimmo/Dokumente/projects/odin/javascript-exercises/" (24598 42869 494399 724000) ".gitignore" "../" "removeFromArray/" "generator-exercise/" "repeatString/" "fibonacci/" "reverseString/" "pig_latin/" "getTheTitles/" "snakeCase/" "tempConversion/" "caesar/" "findTheOldest/" "./" "leapYears/" "palindromes/" ".git/" "helloWorld/" "README.md" "sumAll/" "calculator/")
-
- ("/home/" (24457 48877 0 0) "liveuser/" "../" "test/" ".directory" "lost+found/" "root/" "./" "domenico/" "mimmo/")
 
  ("/home/mimmo/Dokumente/projects/c/kr/" (24550 20551 435884 0) "../" "Useful_Templates/" "./" "Exercises/" "Intros/")
 

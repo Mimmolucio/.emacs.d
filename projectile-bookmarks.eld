@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/Dokumente/projects/odin/exercises/ruby-exercises/" "~/Dokumente/projects/c/hard/" "~/Dokumente/projects/c/" "~/Dokumente/projects/odin/javascript-exercises/" "~/Dokumente/projects/google-homepage/")
+("~/Dokumente/projects/cs50x/pset3/runoff/" "~/.emacs.d/" "~/Dokumente/projects/cs50x/" "~/Dokumente/projects/odin/javascript-exercises/")

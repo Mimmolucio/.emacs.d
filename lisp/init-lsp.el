@@ -2,7 +2,7 @@
 (require 'lsp)
 ;;(require 'lsp-clients)
 ;;(lsp-clients-register-clangd)
-(add-hook 'c-mode-hook 'lsp)
+;;(add-hook 'c-mode-hook 'lsp)
 
 ;;company
 (require 'company)
